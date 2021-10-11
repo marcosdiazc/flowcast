@@ -1,0 +1,169 @@
+/* main index home*/
+
+#sections{
+	margin: 5em 5em;
+	background-color:$color-tres;
+	color: $color-primario;
+	padding: 2rem 0;
+
+
+	.titulos-documento{
+		margin: 0 auto;
+		text-transform: uppercase;
+		color: $color-primario;
+	}
+
+	.titulos-main-destacado{
+		color: $color-secundario;
+	}
+
+	.titulos-seccion{
+		color: $color-tres;
+		padding: 1em;
+		font-size: 3mm;
+	}
+
+	.video-section{
+		background-color:$color-cuatro;
+		text-align: center;
+	}
+
+	.seccion-flex{
+		display: flex;
+	}
+}
+
+
+/* settings main */
+
+.sectionsMain{
+	color: $color-tres;
+}
+
+.titulos-documento-settings{
+	margin: 0 auto;
+	text-transform: unset;
+	color: $color-cuatro;
+}
+
+.titulos-main-destacado-settings{
+	color:$color-cinco;
+	
+}
+
+.titulos-seccion-settings{
+	color: $color-tres;
+
+	padding: 0em;
+	font-size: 7mm;
+	margin: 0 auto;
+}
+
+.seccion-flex-settings{
+	display: flexbox;
+	flex-wrap: wrap;
+	color: $color-cinco;
+
+}
+
+.animame{
+	width: 100px;
+	height: 100px;
+	color: $color-cinco;
+	transition: all 2s;
+
+}
+
+
+.animame:hover{
+	height: 200px;
+	width: 200px;
+	padding: 20px;
+	background-color: cyan;
+}
+
+/* episodios */
+
+.EpisodiosSeccion{
+	background-color: blueviolet;
+	font-size: 30px;
+	text-align: center;
+}
+
+.EpisodiosTabla{
+	border: 1;
+}
+
+
+table {
+	width: 100%;
+	color:$color-cinco;
+	border-spacing: 30px;
+	border-collapse: separate;
+	background: darkcyan;
+ }
+ th, td {
+	width: 25%;
+	text-align: left;
+	vertical-align: top;
+	border: 1pxsolid #000;
+ }
+
+ /* nuevoepisodio */
+
+ .grid-container {
+	display: grid;
+	grid-template-rows: 300px 100px; 
+	grid-template-columns: 300px 100px 100px;
+	grid-gap: 10px;
+  }
+
+  .grid-item1 {
+	background:$color-tres;
+	text-align: center;
+	
+	grid-column-start: 1;
+  }
+  
+  .grid-item2 {
+	background: $color-tres;
+	text-align: center;
+	
+	
+  }
+
+  .grid-item3 {
+	background: $color-tres;
+	text-align: center;
+	
+	
+  }
+
+  .grid-item4 {
+	background: $color-tres;
+	text-align: center;
+	
+  }
+
+  /* preguntas frecuentes */
+
+  .SearchFrecuentes{
+	  background: $color-tres;
+	  width: 400px;
+	  padding: 30px;
+	  margin: auto;
+	  margin-top: 100px;
+	  border-radius: 4px;
+	  font-family: "calibri";
+  }
+
+  .d-block-w-100{
+	object-fit: scale-down;
+	width: 1400px;
+  	height: 400px;
+  }
+
+  .espacio{
+	width: 1400px;
+	height: 400px;
+  }

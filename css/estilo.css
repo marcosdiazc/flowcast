@@ -1,0 +1,323 @@
+@import url("bootstrap.min.css");
+@import url("bootstrap-theme.css");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* header*/
+.navegacion {
+  display: flex;
+  justify-content: space-between;
+  background-color: #6E447A;
+  padding: 1em;
+  width: 100%;
+  position: fixed;
+  backdrop-filter: blur(8px);
+  box-shadow: 0 0 10px fuchsia;
+}
+
+.navegacion__lista {
+  list-style: none;
+  display: flex;
+  background-color: None;
+  justify-content: space-between;
+  width: 50%;
+}
+
+.navegacion__link-logo {
+  width: 30px;
+}
+
+.navegacion__img {
+  width: 100%;
+  height: 100%;
+}
+
+ul {
+  list-style: none;
+  font-size: 0;
+}
+
+li {
+  display: inline-block;
+  width: 25%;
+  position: relative;
+  font-size: 14px;
+}
+
+ul ul li {
+  display: block;
+}
+
+ul ul {
+  position: absolute;
+  display: none;
+}
+
+ul li:hover ul {
+  display: block;
+}
+
+/* HERO  */
+.jumbotron jumbotron-fluid {
+  color: #6E447A;
+  background-color: #F73C58;
+}
+
+.full {
+  /*background: url(http://placehold.it/1920x1080) no-repeat center center fixed;*/
+  background: url("../images/laser_keyboard.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.hero-container {
+  padding: 5em;
+  width: 100%;
+  background-image: url(imagenes/heroima.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  color: #6E447A;
+}
+
+h1 {
+  font-size: 50px;
+  color: white;
+  text-align: center;
+}
+
+h2 {
+  font-size: 25px;
+  color: white;
+  text-align: center;
+}
+
+.subtitle-hero {
+  color: white;
+  font-size: 30px;
+  text-align: center;
+}
+
+.content-hero{
+  font-size: 20px;
+  color: white;
+  text-align: center;
+}
+
+/* main index home*/
+#sections {
+  margin: 5em 5em;
+  background-color: #6E447A;
+  color: #001E4D;
+  padding: 2rem 0;
+}
+
+#sections .titulos-documento {
+  margin: 0 auto;
+  text-transform: uppercase;
+  color: #001E4D;
+}
+
+#sections .titulos-main-destacado {
+  color: #00377C;
+}
+
+#sections .titulos-seccion {
+  color: #6E447A;
+  padding: 1em;
+  font-size: 3mm;
+}
+
+#sections .video-section {
+  background-color: #F73C58;
+  text-align: center;
+}
+
+#sections .seccion-flex {
+  display: flex;
+}
+
+/* settings main */
+.sectionsMain {
+  color: #6E447A;
+}
+
+.titulos-documento-settings {
+  margin: 0 auto;
+  text-transform: unset;
+  color: #F73C58;
+}
+
+.titulos-main-destacado-settings {
+  color: #9198BD;
+}
+
+.titulos-seccion-settings {
+  color: #6E447A;
+  padding: 0em;
+  font-size: 7mm;
+  margin: 0 auto;
+}
+
+.seccion-flex-settings {
+  display: flexbox;
+  flex-wrap: wrap;
+  color: #9198BD;
+}
+
+.animame {
+  width: 100px;
+  height: 100px;
+  color: #9198BD;
+  transition: all 2s;
+}
+
+.animame:hover {
+  height: 200px;
+  width: 200px;
+  padding: 20px;
+  background-color: cyan;
+}
+
+/* episodios */
+.EpisodiosSeccion {
+  background-color: blueviolet;
+  font-size: 30px;
+  text-align: center;
+}
+
+.EpisodiosTabla {
+  border: 1;
+}
+
+table {
+  width: 100%;
+  color: #9198BD;
+  border-spacing: 30px;
+  border-collapse: separate;
+  background: darkcyan;
+}
+
+th, td {
+  width: 25%;
+  text-align: left;
+  vertical-align: top;
+  border: 1pxsolid #000;
+}
+
+/* nuevoepisodio */
+.grid-container {
+  display: grid;
+  grid-template-rows: 300px 100px;
+  grid-template-columns: 300px 100px 100px;
+  grid-gap: 10px;
+}
+
+.grid-item1 {
+  background: #6E447A;
+  text-align: center;
+  grid-column-start: 1;
+}
+
+.grid-item2 {
+  background: #6E447A;
+  text-align: center;
+}
+
+.grid-item3 {
+  background: #6E447A;
+  text-align: center;
+}
+
+.grid-item4 {
+  background: #6E447A;
+  text-align: center;
+}
+
+/* preguntas frecuentes */
+.SearchFrecuentes {
+  background: #6E447A;
+  width: 400px;
+  padding: 30px;
+  margin: auto;
+  margin-top: 100px;
+  border-radius: 4px;
+  font-family: "calibri";
+}
+
+.d-block-w-100 {
+  object-fit: scale-down;
+  width: 1400px;
+  height: 400px;
+}
+
+.espacio {
+  width: 1400px;
+  height: 400px;
+}
+
+#footer {
+  background-color: #001E4D;
+  width: 100%;
+}
+
+#footer .footer__container {
+  width: 90%;
+  padding: 4em;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  color: #6E447A;
+}
+
+#footer .footer__container .footer__item {
+  background-color: #F73C58;
+  width: 200px;
+  height: 200px;
+  padding: 1em;
+  border: 2px solid goldenrod;
+  border-radius: 5px;
+}
+
+#footer .footer__container .footer__item p {
+  color: #6E447A;
+  text-align: center;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #001E4D;
+  font-family: 'Roboto', sans-serif;
+}
+
+
+#pagina {
+  position: relative;
+  min-height: 100%;
+}
+
+#contenido {
+  padding-bottom:50px; /* este valor debe ser igual o mayor al alto del pie */
+}
+
+#pie {
+  height:50px;
+  line-height:50px;
+  background:black;
+  color:white;
+  text-align:center;
+  position:absolute;
+  bottom:0;
+  left:0;
+  width:100%;
+}

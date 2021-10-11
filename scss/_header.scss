@@ -1,0 +1,97 @@
+/* header*/
+
+
+
+.navegacion {
+	display: flex;
+	justify-content: space-between;
+	background-color:$color-tres;
+	padding: 1em;
+	width: 100%;
+	position: fixed;
+	backdrop-filter: blur(8px);
+	box-shadow: 0 0 10px fuchsia ;
+}
+
+.navegacion__lista{
+	list-style: none;
+	display: flex;
+	background-color: None;
+	justify-content: space-between;
+	width: 50%;
+}
+
+.navegacion__link-logo{
+	width: 30px;
+}
+
+.navegacion__img{
+	width: 100%;
+	height: 100%;
+}
+
+
+ul{
+	list-style: none;
+	font-size: 0;
+}
+
+li{
+	display: inline-block;
+	width: 25%;
+	position: relative;
+	font-size: 14px;
+
+}
+
+ul ul li{
+	display: block;
+}
+
+ul ul{
+	position: absolute;
+	display: none;
+}
+
+ul li:hover ul{
+	display: block;
+}
+
+/* HERO  */
+
+.jumbotron jumbotron-fluid{
+	color: $color-tres;
+	background-color: $color-cuatro;
+}
+
+.full {
+	/*background: url(http://placehold.it/1920x1080) no-repeat center center fixed;*/
+	background: url("../images/laser_keyboard.jpg") no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+   }
+
+.hero-container{
+	padding: 5em;
+	width: 100%;
+	background-image: url(imagenes/heroima.jpg);
+	background-size: cover;
+	background-attachment: fixed;
+	color: $color-tres;
+}
+
+h1{
+font-size: 50px ;
+color: $color-secundario;
+text-align: center;
+
+}
+
+.subtitle-hero{
+	color: $color-cinco;
+	font-size: 30px;
+	text-align: center;
+
+}
