@@ -61,10 +61,7 @@ ul li:hover ul {
 }
 
 /* HERO  */
-.jumbotron jumbotron-fluid {
-  color: #6E447A;
-  background-color: #F73C58;
-}
+
 
 .full {
   /*background: url(http://placehold.it/1920x1080) no-repeat center center fixed;*/
@@ -76,12 +73,11 @@ ul li:hover ul {
 }
 
 .hero-container {
-  padding: 5em;
+  padding: 2rem;
   width: 100%;
   background-image: url(imagenes/heroima.jpg);
   background-size: cover;
-  background-attachment: fixed;
-  color: #6E447A;
+  background-attachment: fixed;  
 }
 
 h1 {
@@ -110,26 +106,25 @@ h2 {
 
 /* main index home*/
 #sections {
-  margin: 5em 5em;
-  background-color: #6E447A;
-  color: #001E4D;
+  margin: 5rem 5rem;
+  color: white;
   padding: 2rem 0;
 }
 
 #sections .titulos-documento {
   margin: 0 auto;
   text-transform: uppercase;
-  color: #001E4D;
+  color: white;
 }
 
 #sections .titulos-main-destacado {
-  color: #00377C;
+  color:white;
 }
 
 #sections .titulos-seccion {
-  color: #6E447A;
+  color:white;
   padding: 1em;
-  font-size: 3mm;
+  font-size: 25px;
 }
 
 #sections .video-section {
@@ -137,7 +132,7 @@ h2 {
 }
 
 #sections .seccion-flex {
-  display: flex;
+  display: flexbox;
 }
 
 /* settings main */
@@ -152,92 +147,25 @@ h2 {
 }
 
 .titulos-main-destacado-settings {
-  color: #9198BD;
+  color:white;
 }
 
 .titulos-seccion-settings {
-  color: #6E447A;
+  color: white;
   padding: 0em;
   font-size: 7mm;
   margin: 0 auto;
 }
 
-.seccion-flex-settings {
-  display: flexbox;
-  flex-wrap: wrap;
-  color: #9198BD;
-}
-
-.animame {
-  width: 100px;
-  height: 100px;
-  color: #9198BD;
-  transition: all 2s;
-}
-
-.animame:hover {
-  height: 200px;
-  width: 200px;
-  padding: 20px;
-  background-color: cyan;
-}
-
 /* episodios */
-.EpisodiosSeccion {
-  background-color: blueviolet;
-  font-size: 30px;
-  text-align: center;
-}
-
-.EpisodiosTabla {
-  border: 1;
-}
-
-table {
-  width: 100%;
-  color: #9198BD;
-  border-spacing: 30px;
-  border-collapse: separate;
-  background: darkcyan;
-}
-
-th, td {
-  width: 25%;
-  text-align: left;
-  vertical-align: top;
-  border: 1pxsolid #000;
-}
-
 /* nuevoepisodio */
-.grid-container {
-  display: grid;
-  grid-template-rows: 300px 100px;
-  grid-template-columns: 300px 100px 100px;
-  grid-gap: 10px;
-}
-
-.grid-item1 {
-  background: #6E447A;
-  text-align: center;
-  grid-column-start: 1;
-}
-
-.grid-item2 {
-  background: #6E447A;
-  text-align: center;
-}
-
-.grid-item3 {
-  background: #6E447A;
-  text-align: center;
-}
-
-.grid-item4 {
-  background: #6E447A;
-  text-align: center;
-}
-
 /* preguntas frecuentes */
+
+.form-group{
+  color: white;
+  width: 1200px;
+}
+
 .SearchFrecuentes {
   background: #6E447A;
   width: 400px;
@@ -259,40 +187,10 @@ th, td {
   height: 400px;
 }
 
-#footer {
-  background-color: #001E4D;
-  width: 100%;
+.footer{
+  bottom: 0;
 }
 
-#footer .footer__container {
-  width: 90%;
-  padding: 4em;
-  margin: 0 auto;
-  display: flex;
-  justify-content: space-evenly;
-  align-items: center;
-  color: #6E447A;
-}
-
-#footer .footer__container .footer__item {
-  background-color: #F73C58;
-  width: 200px;
-  height: 200px;
-  padding: 1em;
-  border: 2px solid goldenrod;
-  border-radius: 5px;
-}
-
-#footer .footer__container .footer__item p {
-  color: #6E447A;
-  text-align: center;
-}
-
-* {
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
-}
 
 body {
   background-color: #001E4D;
