@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Flowcast Preguntas Frecuentes</title>  
+    <title>Dashboard</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
     <link rel="stylesheet" href="css/estilo.css">
 </head>
@@ -20,7 +20,7 @@
           <a class="nav-item nav-link active" href="index.html">Home <span class="sr-only"></span></a>
           <a class="nav-item nav-link" href="episodios.html">Episodios</a>
           <a class="nav-item nav-link" href="nuevoepisodio.html">Nuevo Episodio</a>
-          <a class="nav-item nav-link" href="dashboard.html">Dashboard</a>
+          <a class="nav-item nav-link" href="settings.html">Dashboard</a>
           <a class="nav-item nav-link" href="faqs.html">Faqs</a>
         </div>
       </div>
@@ -29,8 +29,8 @@
     
     <div class="hero-container">
 
-      <h1>Contactanos</h1>
-      <h2 class="subtitle-hero">Estamos aca para ayudarte</h2>
+      <h1>Dashboard</h1>
+      <h2 class="subtitle-hero">Conoce las metricas de tu contenido</h2>
     
 
     </div>      
@@ -38,39 +38,49 @@
 
   <main>
 
-      <form action="#">
-      <div class="form-group">
-        <label for="email">Dejanos tu pregunta:</label>
-        <input type="text" class="form-control" id="email" placeholder="Dejanos tu consulta" name="consulta">
-
-        <form action="#">
-          <div class="form-group">
-            <label for="email">Email:</label>
-            <input type="email" class="form-control" id="email" placeholder="Ingrese email" name="email">
-          
-      </div>
-              
-      <button type="submit" class="btn btn-primary">
-                    Ingresar
-               </button>
-      </form>
+    <div>
+    <img src="imagenes/datos.png" class="img-fluid" alt="...">
     </div>
 
+    <div class="seccionMetricas">
+      <h3>Aqui estan las metricas de tu contenido</h3>
+    </div>
+
+    <div>
+      <table class="table table-dark table-striped">
+        <thead>
+          <tr>
+            <th scope="col"></th>
+            <th scope="col">Reproducciones</th>
+            <th scope="col">Usuarios que visitan</th>
+            <th scope="col">Monetizacion del contenido</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row"></th>
+            <td>2500 Reproducciones</td>
+            <td>1800 Usuarios</td>
+            <td>u$s2000</td>
+          </tr>
+        </tbody>
+      </table>
 
 
 
-    <section>
+    </div>
 
+    <div>
+      <img src="imagenes/datos2.jpg" class="img-fluid" alt="...">
+
+    </div>
 
   </main>
 
-    
-  </div>
 
-
-
+        
   <footer>
-    <div id="pagina" class="footer">
+    <div id="pagina">
       <div id="contenido"></div>
       <div id="pie">2021 &copy; Flowcast Plataforma de Podcasters</div>
     </div>

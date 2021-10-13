@@ -123,8 +123,8 @@ h2 {
 
 #sections .titulos-seccion {
   color:white;
-  padding: 1em;
-  font-size: 25px;
+  padding: 20px;
+  font-size: 35px;
 }
 
 #sections .video-section {
@@ -135,31 +135,13 @@ h2 {
   display: flexbox;
 }
 
-/* settings main */
-.sectionsMain {
-  color: #6E447A;
-}
+/* Dashboard main */
 
-.titulos-documento-settings {
-  margin: 0 auto;
-  text-transform: unset;
-  color: #F73C58;
-}
-
-.titulos-main-destacado-settings {
-  color:white;
-}
-
-.titulos-seccion-settings {
+.seccionMetricas{
+  margin: 100px;
   color: white;
-  padding: 0em;
-  font-size: 7mm;
-  margin: 0 auto;
+  text-align: center;
 }
-
-/* episodios */
-/* nuevoepisodio */
-/* preguntas frecuentes */
 
 .form-group{
   color: white;
@@ -187,16 +169,27 @@ h2 {
   height: 400px;
 }
 
-.footer{
+footer{
+  background-color: black;
+  position: absolute;
   bottom: 0;
+  width: 100%;
+  height: 40px;
+  color: white
 }
 
 
 body {
   background-color: #001E4D;
   font-family: 'Roboto', sans-serif;
+  margin: 0;
+  margin-bottom: 40px;
 }
 
+html {
+  min-height: 100%;
+  position: relative;
+}
 
 #pagina {
   position: relative;
