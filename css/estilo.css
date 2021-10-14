@@ -135,18 +135,24 @@ h2 {
   display: flexbox;
 }
 
-/* Dashboard main */
+/* Dashboard*/
+
+.imaDashboard{
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: 3s;
+}
+
+.form-label{
+  color: white;
+}
 
 .seccionMetricas{
-  margin: 100px;
   color: white;
   text-align: center;
 }
 
-.form-group{
-  color: white;
-  width: 1200px;
-}
 
 .SearchFrecuentes {
   background: #6E447A;
@@ -156,6 +162,10 @@ h2 {
   margin-top: 100px;
   border-radius: 4px;
   font-family: "calibri";
+}
+
+h4{
+  color: white;
 }
 
 .d-block-w-100 {
@@ -210,4 +220,21 @@ html {
   bottom:0;
   left:0;
   width:100%;
+}
+
+
+/*faqs*/
+
+.mapa{
+  text-align: center;
+
+}
+
+.form-group{
+  color: white;
+  width: 100%;
+}
+
+h3{
+  margin: 100px;
 }
